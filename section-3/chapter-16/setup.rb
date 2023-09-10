@@ -13,3 +13,4 @@ file '/etc/motd' do
     # mode '0755'
     action :create
 end
+# include_recipe 'cookbook::recipe'
