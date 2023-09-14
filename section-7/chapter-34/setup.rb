@@ -11,6 +11,9 @@ end
 
 template '/etc/motd' do
     source 'motd.erb'
+    variables(
+        :name => 'JPMC'
+    )
     owner 'root'
     group 'root'
     mode '0755'
